@@ -214,7 +214,7 @@ nav .clickable:hover {
 
 .burger.open span:nth-child(2) {
     opacity: 0;
-    transform: scaleX(0.3); 
+    transform: scaleX(0.3);
 }
 
 .burger.open span:nth-child(3) {
@@ -1435,7 +1435,7 @@ footer {
         }
 
         .interactive {
-            
+
             .calendar {
                 width: 100%;
                 padding: 0 2rem;
@@ -1450,7 +1450,7 @@ footer {
 
         .policy {
             margin-top: 0;
-            
+
             .img {
                 width: 100%;
                 padding: 0 2rem;
@@ -1585,94 +1585,94 @@ footer {
             padding: 2rem;
             padding-top: 8rem;
         }
-        }
+    }
 
-        .form-container {
+    .form-container {
 
-            .text {
-                padding: 1rem;
-            }
-        }
-
-        .img-bottom {
-            padding: 0 2rem;
+        .text {
+            padding: 1rem;
         }
     }
 
-    /* -------- MENU ----------*/
+    .img-bottom {
+        padding: 0 2rem;
+    }
+}
 
-    .menu {
+/* -------- MENU ----------*/
 
-        .header {
-            width: 100%;
-            padding: 8rem 2rem;
-        }
+.menu {
 
-        .main-menus {
+    .header {
+        width: 100%;
+        padding: 8rem 2rem;
+    }
+
+    .main-menus {
+        padding: 0 2rem;
+        gap: 8rem;
+        flex-direction: column;
+    }
+
+    .signature {
+
+        .cards {
             padding: 0 2rem;
-            gap: 8rem;
-            flex-direction: column;
-        }
 
-        .signature {
+            .card-2 .plates {
 
-            .cards {
-                padding: 0 2rem;
+                .plate {
+                    width: 100%;
 
-                .card-2 .plates {
-
-                    .plate {
+                    .img {
                         width: 100%;
+                    }
 
-                        .img {
-                            width: 100%;
-                        }
-
-                        h2,
-                        p {
-                            padding: 0 2rem;
-                        }
+                    h2,
+                    p {
+                        padding: 0 2rem;
                     }
                 }
             }
         }
+    }
 
-        .wines {
-            flex-direction: column;
-            padding: 0 2rem;
-        }
+    .wines {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
 
-        .img-bottom {
+    .img-bottom {
+        padding: 0 2rem;
+    }
+}
+
+/*---------- CONTACT ----------*/
+
+.contact {
+
+    .header {
+        width: 100%;
+        padding: 8rem 2rem 0 2rem;
+    }
+
+    .interactive {
+
+        .form-container {
+            width: 100%;
             padding: 0 2rem;
         }
     }
 
-    /*---------- CONTACT ----------*/
+    .policy {
 
-    .contact {
-
-        .header {
+        .info {
             width: 100%;
-            padding: 8rem 2rem 0 2rem;
-        }
-
-        .interactive {
-
-            .form-container {
-                width: 100%;
-                padding: 0 2rem;
-            }
-        }
-
-        .policy {
-
-            .info {
-                width: 100%;
-                padding: 0 2rem;
-            }
+            padding: 0 2rem;
         }
     }
 }
+
 
 @keyframes grow-up {
     from {
