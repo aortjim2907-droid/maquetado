@@ -1383,6 +1383,12 @@ footer {
     /* -------- TEAM ----------*/
     .team {
 
+        .header {
+            width: 100%;
+            padding: 4rem;
+            padding-top: 8rem;
+        }
+
         .form-wrapper {
             width: 75% !important;
         }
@@ -1574,6 +1580,12 @@ footer {
     /* -------- TEAM ----------*/
 
     .team {
+
+        .header {
+            padding: 2rem;
+            padding-top: 8rem;
+        }
+        }
 
         .form-container {
 
