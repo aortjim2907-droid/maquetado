@@ -86,6 +86,10 @@ a {
     animation: bounce .6s ease-in-out;
 }
 
+.policy p:hover {
+    transform: scale(1.05);
+}
+
 @keyframes bounce {
     0% {
         transform: translateY(0);
@@ -124,8 +128,17 @@ nav .clickable:hover {
     transition: transform 0.3s ease;
 }
 
+.clickable-icon-2 {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
 .clickable-icon:hover {
     transform: scale(1.2);
+}
+
+.clickable-icon-2:hover {
+    transform: scale(1.05);
 }
 
 .body {
@@ -294,7 +307,7 @@ nav .clickable:hover {
     height: 70px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
     position: fixed;
-    z-index: 100000;
+    z-index: 10000;
     padding: .5rem 2rem;
 
     backdrop-filter: blur(3px);
@@ -620,8 +633,7 @@ footer {
         align-items: center;
         text-align: center;
         font-weight: 200;
-        gap: 1rem;
-
+        gap: 2rem;
 
         div {
             display: flex;
@@ -631,6 +643,10 @@ footer {
 
         .policy {
             cursor: pointer;
+
+            p {
+                transition: transform 0.3s ease;
+            }
         }
 
         .time {
@@ -1371,6 +1387,15 @@ footer {
             width: 75% !important;
         }
 
+        .team-content .cards {
+
+            .row-title {
+
+                h2 {
+                    width: 100%;
+                }
+            }
+        }
     }
 
     .menu {
@@ -1402,10 +1427,47 @@ footer {
             width: 100%;
             padding: 8rem 4rem 0 4rem;
         }
+
+        .interactive {
+            
+            .calendar {
+                width: 100%;
+                padding: 0 2rem;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .policy {
+            margin-top: 0;
+            
+            .img {
+                width: 100%;
+                padding: 0 2rem;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: contain;
+                }
+            }
+        }
     }
 }
 
 @media (max-width: 740px) {
+
+    footer {
+
+        .content {
+            flex-direction: column;
+            gap: 4rem;
+        }
+    }
 
     /* ----------- NAV ---------- */
 
@@ -1518,6 +1580,10 @@ footer {
             .text {
                 padding: 1rem;
             }
+        }
+
+        .img-bottom {
+            padding: 0 2rem;
         }
     }
 
