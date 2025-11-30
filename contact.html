@@ -10,13 +10,16 @@
 
 <body>
     <section class="contact">
-        <div class="nav-bar">
+         <div class="nav-bar">
             <nav>
                 <div class="logo">
                     <h2><a href="#" class="clickable">FIOR</a></h2>
                     <div id="progress"></div>
                 </div>
-                <ul class="links">
+                <div class="burger" id="burger">
+                    <span></span><span></span><span></span>
+                </div>
+                <ul class="links" id="menu-on">
                     <div class="nav-item">
                         <li><a href="index.html" class="clickable">HOME</a></li>
                         <div class="nav-line"></div>
@@ -31,6 +34,13 @@
                     </div>
                 </ul>
             </nav>
+        </div>
+        <div class="menu-mobile" id="menu-mobile">
+            <ul class="menu-links">
+                <li class="menu-mobile-item"><a href="index.html" class="clickable">HOME</a></li>
+                <li class="menu-mobile-item"><a href="team.html" class="clickable">TEAM</a></li>
+                <li class="menu-mobile-item"><a href="menu.html" class="clickable">MENU</a></li>
+            </ul>
         </div>
         <div class="header">
             <h2 class="title-1">Reservations</h2>
@@ -137,6 +147,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/burguer.js"></script>
 </body>
 
 </html>
