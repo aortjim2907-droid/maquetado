@@ -1585,90 +1585,90 @@ footer {
             padding: 2rem;
             padding-top: 8rem;
         }
-    }
 
-    .form-container {
+        .form-container {
 
-        .text {
-            padding: 1rem;
+            .text {
+                padding: 1rem;
+            }
+        }
+
+        .img-bottom {
+            padding: 0 2rem;
         }
     }
 
-    .img-bottom {
-        padding: 0 2rem;
-    }
-}
+    /* -------- MENU ----------*/
 
-/* -------- MENU ----------*/
+    .menu {
 
-.menu {
+        .header {
+            width: 100%;
+            padding: 8rem 2rem;
+        }
 
-    .header {
-        width: 100%;
-        padding: 8rem 2rem;
-    }
-
-    .main-menus {
-        padding: 0 2rem;
-        gap: 8rem;
-        flex-direction: column;
-    }
-
-    .signature {
-
-        .cards {
+        .main-menus {
             padding: 0 2rem;
+            gap: 8rem;
+            flex-direction: column;
+        }
 
-            .card-2 .plates {
+        .signature {
 
-                .plate {
-                    width: 100%;
+            .cards {
+                padding: 0 2rem;
 
-                    .img {
+                .card-2 .plates {
+
+                    .plate {
                         width: 100%;
-                    }
 
-                    h2,
-                    p {
-                        padding: 0 2rem;
+                        .img {
+                            width: 100%;
+                        }
+
+                        h2,
+                        p {
+                            padding: 0 2rem;
+                        }
                     }
                 }
             }
         }
-    }
 
-    .wines {
-        flex-direction: column;
-        padding: 0 2rem;
-    }
+        .wines {
+            flex-direction: column;
+            padding: 0 2rem;
+        }
 
-    .img-bottom {
-        padding: 0 2rem;
-    }
-}
-
-/*---------- CONTACT ----------*/
-
-.contact {
-
-    .header {
-        width: 100%;
-        padding: 8rem 2rem 0 2rem;
-    }
-
-    .interactive {
-
-        .form-container {
-            width: 100%;
+        .img-bottom {
             padding: 0 2rem;
         }
     }
 
-    .policy {
+    /*---------- CONTACT ----------*/
 
-        .info {
+    .contact {
+
+        .header {
             width: 100%;
-            padding: 0 2rem;
+            padding: 8rem 2rem 0 2rem;
+        }
+
+        .interactive {
+
+            .form-container {
+                width: 100%;
+                padding: 0 2rem;
+            }
+        }
+
+        .policy {
+
+            .info {
+                width: 100%;
+                padding: 0 2rem;
+            }
         }
     }
 }
